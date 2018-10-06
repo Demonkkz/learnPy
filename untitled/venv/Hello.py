@@ -58,3 +58,13 @@ print(set1.difference(set2))
 
 T = [i for i in range(40) if i%5 is 0]
 print(T)
+
+lis = ['a','b','c','d']
+for a,b in enumerate(lis):
+    print(a,b)
+
+a = 1
+b = a
+print(a,b)
+a=2
+print(b)

@@ -11,7 +11,7 @@ else:
     else:
         print('none')
 ##while
-num1=0
+num1 = 0
 while num1<10:
     print(num1)
     num1+=1
@@ -33,9 +33,25 @@ while i<5:
 print('OVER')
 
 ##9*9
-
+##two ways
 for i in range(1,10):
     for j in range(1,1+i):
-       num=str(i)+'*'+str(j)+'='+str(i*j)
-       print(num,end=' ')
+        print('{}*{}={}'.format(j, i, i * j), end=' ')
+    print('\n')
+
+i=9
+while i>0:
+    j = 1
+    while j<i+1:
+        print('{}*{}={}'.format(j,i,i*j), end=' ')
+        j += 1
+    print('\n')
+    i-=1
+
+##等腰三角形
+for i in range(1,6):
+    j=5-i
+    print(' '*j,end='')
+    for k in range(1,2*i):
+        print('*',end='')
     print('\n')
