@@ -8,7 +8,7 @@ class Fibonacci(object):
         listLen = input('Please input the Lenth of Fibonacci (3-50):')
         self.checkLen(listLen)
         while len(self.fList) < int(listLen):
-            self.fList.append(self.fList[-1] + self.fList[-2])
+            self.fList.append(self.fList[-1] + self.fList[-2])  # Fibonacci函数   F(n) = F(n-1)+F(n-2)
         print('get the List:\n {}'.format(self.fList))
 
     def checkLen(self, lenth):
