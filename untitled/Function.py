@@ -14,3 +14,4 @@ print(x)
 # 匿名函数
 sum1 = (lambda x,y:x+y)(2,3)
 print(sum1)
+
