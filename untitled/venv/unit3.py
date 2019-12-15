@@ -37,7 +37,7 @@ print('OVER')
 for i in range(1,10):
     for j in range(1,1+i):
         print('{}*{}={}'.format(j, i, i * j), end=' ')
-    print('\n')
+    print('')
 
 i=9
 while i>0:
